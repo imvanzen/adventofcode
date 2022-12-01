@@ -24,7 +24,10 @@ function readFile() {
         }
     }
 
-    console.log("elf with the max number of calories", Math.max(...aggr))
+    const topThree = aggr.sort((a, b) => b - a).splice(0, 3)
+
+    console.log("Top three elfes", topThree)
+    console.log("Their sum", topThree.reduce((sum, numb) => sum += numb, 0))
 }
 
 readFile()
