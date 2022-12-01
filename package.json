@@ -1,5 +1,26 @@
 {
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imvanzen/adventofcode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imvanzen/adventofcode/issues"
+  },
+  "homepage": "https://github.com/imvanzen/adventofcode#readme",
+  "description": "",
   "devDependencies": {
-    "@types/node": "^18.11.10"
+    "@types/node": "^18.11.10",
+    "typescript": "^4.9.3"
   }
 }
